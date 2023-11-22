@@ -4,9 +4,9 @@
 	import YouTube from './icons/you-tube.svelte'
 </script>
 
-<footer class="bg-base-300 px-4 text-base-content">
+<footer class="bg-base-300 px-4 mt-20 text-base-content">
 	<div
-		class="footer container max-w-6xl mx-auto pt-20 mb-20 text-base"
+		class="footer container max-w-6xl mx-auto pt-20 pb-20 text-base"
 	>
 		<div>
 			<span class="footer-title">Orders</span>
@@ -34,67 +34,6 @@
 					<Facebook />
 				</a>
 			</div>
-		</div>
-	</div>
-	<div class="flex text-center justify-center pb-20 text-base">
-		<div>
-			<p class="mb-4">
-				Built with 💜 by
-				<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://scottspence.com"
-				>
-					Scott Spence
-				</a>
-			</p>
-			<p class="max-w-2xl">
-				This is a demo storefront for Vendure, an open-source headless
-				e-commerce framework:
-				<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://www.vendure.io/"
-				>
-					vendure.io
-				</a>
-				<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://github.com/vendure-ecommerce/storefront"
-				>
-					@vendure/storefront on GitHub
-				</a>
-				using
-				<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://www.houdinigraphql.com/"
-				>
-					Houdini
-				</a>
-				and
-				<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="https://www.kitql.dev/"
-				>
-					KitQL
-				</a>
-				(<a
-					class="link"
-					target="_blank"
-					rel="noopener noreferrer"
-					href="/api/graphiql"
-				>
-					GraphiQL
-				</a>)
-			</p>
 		</div>
 	</div>
 </footer>

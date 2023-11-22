@@ -27,11 +27,19 @@
 </svelte:head>
 
 <PageTransition refresh={data.key}>
-  <Navbar />
-  <Cart />
-  <Hero key={data.key} />
-  <main class="container max-w-6xl mx-auto px-4 mb-20">
-    <slot />
-  </main>
+  <div class="wrap">
+    <Navbar />
+    <Cart />
+    <Hero key={data.key} />
+    <main class="container max-w-6xl mx-auto px-4 mb-20">
+      <slot />
+    </main>
+  </div>
   <Footer />
 </PageTransition>
+
+<style>
+  .wrap {
+    min-height: 100vh;
+  }
+</style>

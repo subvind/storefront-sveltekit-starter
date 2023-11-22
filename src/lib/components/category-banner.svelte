@@ -11,7 +11,7 @@
         <figure>
           <img
             class="object-cover"
-            src={`${collection.featuredAsset.preview}?w=350&h=100`}
+            src={`${collection.featuredAsset?.preview || ''}?w=350&h=100`}
             alt={collection.name}
           />
         </figure>

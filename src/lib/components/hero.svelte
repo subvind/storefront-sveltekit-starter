@@ -17,7 +17,7 @@
     <div class="hero-overlay bg-opacity-40" />
     <div class="text-center text-neutral-content relative">
       <h1 class="text-5xl lg:text-9xl font-bold tracking-widest">
-        vendure storefront
+        Broken Record
       </h1>
     </div>
   </div>
@@ -28,14 +28,14 @@
     class="hero min-h-[20vh] lg:min-h-[40vh] mb-10"
     style={`background-image: url(${
       parent
-        ? parent.featuredAsset.preview
+        ? parent.featuredAsset?.preview || ''
         : HeroBackground
     });`}
   >
     <div class="hero-overlay bg-opacity-80" />
     <div class="text-center text-neutral-content relative">
       <h1 class="text-5xl lg:text-9xl font-bold tracking-widest">
-        {parent ? parent.name : `vendure storefront`}
+        {parent ? parent.name : `Broken Record`}
       </h1>
     </div>
   </div>
